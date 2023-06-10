@@ -1,0 +1,10 @@
+let fact=1
+let a=4
+for (let i=0;i<= a;i++)
+  {
+    fact=fact*i;
+  }
+console.log( "factorial is "   +fact)
+
+
+Output : factorial is 24
