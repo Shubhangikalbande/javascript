@@ -16,8 +16,11 @@ let fruit2= `bana\t'na`;
 let fruit3= `bana\r'na`;
 
 console.log(fruit)
+
 console.log(fruit1)
+
 console.log(fruit2)
+
 console.log(fruit3)
 
 Output:
