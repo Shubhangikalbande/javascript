@@ -1,0 +1,21 @@
+first.innerHTML
+
+"<b>Hi</b> This is span "
+
+first.innerText
+
+"Hi This is span"
+
+first.innerHTML = "<i> Itlaic </i> "
+
+"<i> Itlaic </i> "
+
+first.outerHTML
+
+'<span id="first"><i> Itlaic </i> </span>'
+
+first.outerHTML="<div> this is me</div>"
+
+"<div> this is me</div>" 
+
+console.log(document.body.text)
