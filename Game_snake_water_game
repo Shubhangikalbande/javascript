@@ -1,0 +1,51 @@
+let user = prompt("Enter S, W ,G")
+
+let cpui = Math.floor(Math.random() * 3)
+
+let cpu = ["S", "W", "G"][cpui]
+
+
+const match = (cpu, user) => {
+
+  if (cpu === user) {
+  
+    return " Match tie  up"
+    
+  }
+
+  else if (cpu === "S" && user === "W") {
+  
+    return "cpu"
+    
+  }
+  else if (cpu === "S" && user === "G") {
+  
+    return "user"
+    
+  }
+  else if (cpu === "G" && user === "S")
+  {
+  
+    return "cpu"
+    
+  }
+
+  else if (cpu === "G" && user === "W")
+  {
+    return "user"
+  }
+  
+  else if (cpu === "W" && user === "G") 
+  {
+    return "user"
+  }
+
+  else if (cpu === "W" && user === "S")
+  {
+    return "user"
+  }
+
+}
+let result = match(user, cpu)
+
+console.log("result is :", result)
