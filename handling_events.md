@@ -22,3 +22,8 @@ if( a=="2")
   container.removeEventListener('click',x)
   
 }
+
+Output: 
+
+On cliicking the button ,user will be able to see Hi1 & HI2 .
+On click 2,user will se Hi2 only
